@@ -28,7 +28,7 @@ h1, p {
 } 
 
 .intro {
-    background: url(./fat-book.jpg);
+    background: url(./writing-pen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -57,7 +57,7 @@ input {
 }
 
 .login-form {
-    background: url(./writing-pen.jpg);
+    background: url(./fat-book.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
