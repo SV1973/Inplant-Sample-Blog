@@ -1,0 +1,118 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.head {
+    color: #ffffff;
+    margin-bottom: 3%;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1, p {
+    letter-spacing: 0.1rem;
+} 
+
+.intro {
+    background: url(./fat-book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    
+}
+
+.boxes {
+    margin: 8% 0%;
+}
+
+.boxes h1, .boxes p {
+    margin: 3% 0%;
+}
+
+input {
+    display: block;
+}
+
+.login-form {
+    background: url(./writing-pen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    padding: 8% 8% 0% 8%;
+    height: 85vh;
+    
+}
+
+.form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.txt-box {
+    position: relative;
+    border-bottom: 1px solid #adadad;
+    width: 40%;
+    margin: 5% 0%;
+    left: 30%;
+}
+
+input {
+    color: #ffffff;
+    border: none;
+    width: 70%;
+    outline: none;
+    background: none;
+    
+}
+
+.txt-box input {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    display: inline-block;
+    width: 40%;
+    padding: 1% 0%;
+    background: none;
+    border:1px solid cornsilk;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+button:hover {
+    transition: 0.5s;
+    font-size: 20px;
+    display: inline-block;
+    width: 40%;
+    padding: 1% 0%;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+}
